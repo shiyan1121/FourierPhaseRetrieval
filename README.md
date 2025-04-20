@@ -9,7 +9,7 @@
 [//]: # (They can be imported, or loaded by `model_zoo.get_config` API in users' own configs.)
 
 
-# Generating Mean Transition Time (MTT) Images from Label-Free Optical Imaging Using MA-DenseUNet
+#  Interpretable Fourier Domain Learning for Robust Phase Retrieval
 
 ## Overview
 This repository implements an interpretable Fourier-domain deep learning framework for phase retrieval. The method reconstructs complex-valued wavefronts from intensity-only measurements while preserving physical Object-Fourier domain relationships.
