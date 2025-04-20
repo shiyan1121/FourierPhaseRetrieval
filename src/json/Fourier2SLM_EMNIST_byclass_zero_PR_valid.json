@@ -1,0 +1,827 @@
+{
+    "metadata": {
+        "dataset_name": "Fourier2SLM_EMNIST_byclass_zero_PR_test",
+        "image_name": [
+            "order1_U"
+        ],
+        "data_size": 204
+    },
+    "data_list": [
+        {
+            "case_name": "1-0",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\1-0.npz"
+        },
+        {
+            "case_name": "10-9",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\10-9.npz"
+        },
+        {
+            "case_name": "100-b",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\100-b.npz"
+        },
+        {
+            "case_name": "101-c",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\101-c.npz"
+        },
+        {
+            "case_name": "102-d",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\102-d.npz"
+        },
+        {
+            "case_name": "103-e",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\103-e.npz"
+        },
+        {
+            "case_name": "104-f",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\104-f.npz"
+        },
+        {
+            "case_name": "105-g",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\105-g.npz"
+        },
+        {
+            "case_name": "106-h",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\106-h.npz"
+        },
+        {
+            "case_name": "107-i",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\107-i.npz"
+        },
+        {
+            "case_name": "108-j",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\108-j.npz"
+        },
+        {
+            "case_name": "109-k",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\109-k.npz"
+        },
+        {
+            "case_name": "11-A",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\11-A.npz"
+        },
+        {
+            "case_name": "110-l",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\110-l.npz"
+        },
+        {
+            "case_name": "111-m",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\111-m.npz"
+        },
+        {
+            "case_name": "112-n",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\112-n.npz"
+        },
+        {
+            "case_name": "113-o",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\113-o.npz"
+        },
+        {
+            "case_name": "114-p",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\114-p.npz"
+        },
+        {
+            "case_name": "115-q",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\115-q.npz"
+        },
+        {
+            "case_name": "116-r",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\116-r.npz"
+        },
+        {
+            "case_name": "117-s",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\117-s.npz"
+        },
+        {
+            "case_name": "118-t",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\118-t.npz"
+        },
+        {
+            "case_name": "119-u",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\119-u.npz"
+        },
+        {
+            "case_name": "12-B",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\12-B.npz"
+        },
+        {
+            "case_name": "120-v",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\120-v.npz"
+        },
+        {
+            "case_name": "121-w",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\121-w.npz"
+        },
+        {
+            "case_name": "122-x",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\122-x.npz"
+        },
+        {
+            "case_name": "123-y",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\123-y.npz"
+        },
+        {
+            "case_name": "124-z",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\124-z.npz"
+        },
+        {
+            "case_name": "125-0",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\125-0.npz"
+        },
+        {
+            "case_name": "126-1",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\126-1.npz"
+        },
+        {
+            "case_name": "127-2",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\127-2.npz"
+        },
+        {
+            "case_name": "128-3",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\128-3.npz"
+        },
+        {
+            "case_name": "129-4",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\129-4.npz"
+        },
+        {
+            "case_name": "13-C",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\13-C.npz"
+        },
+        {
+            "case_name": "130-5",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\130-5.npz"
+        },
+        {
+            "case_name": "131-6",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\131-6.npz"
+        },
+        {
+            "case_name": "132-7",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\132-7.npz"
+        },
+        {
+            "case_name": "133-8",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\133-8.npz"
+        },
+        {
+            "case_name": "134-9",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\134-9.npz"
+        },
+        {
+            "case_name": "135-A",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\135-A.npz"
+        },
+        {
+            "case_name": "136-B",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\136-B.npz"
+        },
+        {
+            "case_name": "137-C",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\137-C.npz"
+        },
+        {
+            "case_name": "138-D",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\138-D.npz"
+        },
+        {
+            "case_name": "139-E",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\139-E.npz"
+        },
+        {
+            "case_name": "14-D",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\14-D.npz"
+        },
+        {
+            "case_name": "140-F",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\140-F.npz"
+        },
+        {
+            "case_name": "141-G",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\141-G.npz"
+        },
+        {
+            "case_name": "142-H",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\142-H.npz"
+        },
+        {
+            "case_name": "143-I",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\143-I.npz"
+        },
+        {
+            "case_name": "144-J",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\144-J.npz"
+        },
+        {
+            "case_name": "145-K",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\145-K.npz"
+        },
+        {
+            "case_name": "146-L",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\146-L.npz"
+        },
+        {
+            "case_name": "147-M",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\147-M.npz"
+        },
+        {
+            "case_name": "148-N",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\148-N.npz"
+        },
+        {
+            "case_name": "149-O",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\149-O.npz"
+        },
+        {
+            "case_name": "15-E",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\15-E.npz"
+        },
+        {
+            "case_name": "150-P",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\150-P.npz"
+        },
+        {
+            "case_name": "151-Q",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\151-Q.npz"
+        },
+        {
+            "case_name": "152-R",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\152-R.npz"
+        },
+        {
+            "case_name": "153-S",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\153-S.npz"
+        },
+        {
+            "case_name": "154-T",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\154-T.npz"
+        },
+        {
+            "case_name": "155-U",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\155-U.npz"
+        },
+        {
+            "case_name": "156-V",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\156-V.npz"
+        },
+        {
+            "case_name": "157-W",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\157-W.npz"
+        },
+        {
+            "case_name": "158-X",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\158-X.npz"
+        },
+        {
+            "case_name": "159-Y",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\159-Y.npz"
+        },
+        {
+            "case_name": "16-F",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\16-F.npz"
+        },
+        {
+            "case_name": "160-Z",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\160-Z.npz"
+        },
+        {
+            "case_name": "161-a",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\161-a.npz"
+        },
+        {
+            "case_name": "162-b",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\162-b.npz"
+        },
+        {
+            "case_name": "163-c",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\163-c.npz"
+        },
+        {
+            "case_name": "164-d",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\164-d.npz"
+        },
+        {
+            "case_name": "165-e",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\165-e.npz"
+        },
+        {
+            "case_name": "166-f",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\166-f.npz"
+        },
+        {
+            "case_name": "167-g",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\167-g.npz"
+        },
+        {
+            "case_name": "168-h",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\168-h.npz"
+        },
+        {
+            "case_name": "169-i",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\169-i.npz"
+        },
+        {
+            "case_name": "17-G",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\17-G.npz"
+        },
+        {
+            "case_name": "170-j",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\170-j.npz"
+        },
+        {
+            "case_name": "171-k",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\171-k.npz"
+        },
+        {
+            "case_name": "172-l",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\172-l.npz"
+        },
+        {
+            "case_name": "173-m",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\173-m.npz"
+        },
+        {
+            "case_name": "174-n",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\174-n.npz"
+        },
+        {
+            "case_name": "175-o",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\175-o.npz"
+        },
+        {
+            "case_name": "176-p",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\176-p.npz"
+        },
+        {
+            "case_name": "177-q",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\177-q.npz"
+        },
+        {
+            "case_name": "178-r",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\178-r.npz"
+        },
+        {
+            "case_name": "179-s",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\179-s.npz"
+        },
+        {
+            "case_name": "18-H",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\18-H.npz"
+        },
+        {
+            "case_name": "180-t",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\180-t.npz"
+        },
+        {
+            "case_name": "181-u",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\181-u.npz"
+        },
+        {
+            "case_name": "182-v",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\182-v.npz"
+        },
+        {
+            "case_name": "183-w",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\183-w.npz"
+        },
+        {
+            "case_name": "184-x",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\184-x.npz"
+        },
+        {
+            "case_name": "185-y",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\185-y.npz"
+        },
+        {
+            "case_name": "186-z",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\186-z.npz"
+        },
+        {
+            "case_name": "187-0",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\187-0.npz"
+        },
+        {
+            "case_name": "188-1",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\188-1.npz"
+        },
+        {
+            "case_name": "189-2",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\189-2.npz"
+        },
+        {
+            "case_name": "19-I",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\19-I.npz"
+        },
+        {
+            "case_name": "190-3",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\190-3.npz"
+        },
+        {
+            "case_name": "191-4",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\191-4.npz"
+        },
+        {
+            "case_name": "192-5",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\192-5.npz"
+        },
+        {
+            "case_name": "193-6",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\193-6.npz"
+        },
+        {
+            "case_name": "194-7",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\194-7.npz"
+        },
+        {
+            "case_name": "195-8",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\195-8.npz"
+        },
+        {
+            "case_name": "196-9",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\196-9.npz"
+        },
+        {
+            "case_name": "197-A",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\197-A.npz"
+        },
+        {
+            "case_name": "198-B",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\198-B.npz"
+        },
+        {
+            "case_name": "199-C",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\199-C.npz"
+        },
+        {
+            "case_name": "2-1",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\2-1.npz"
+        },
+        {
+            "case_name": "20-J",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\20-J.npz"
+        },
+        {
+            "case_name": "200-D",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\200-D.npz"
+        },
+        {
+            "case_name": "21-K",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\21-K.npz"
+        },
+        {
+            "case_name": "22-L",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\22-L.npz"
+        },
+        {
+            "case_name": "23-M",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\23-M.npz"
+        },
+        {
+            "case_name": "24-N",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\24-N.npz"
+        },
+        {
+            "case_name": "25-O",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\25-O.npz"
+        },
+        {
+            "case_name": "26-P",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\26-P.npz"
+        },
+        {
+            "case_name": "27-Q",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\27-Q.npz"
+        },
+        {
+            "case_name": "28-R",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\28-R.npz"
+        },
+        {
+            "case_name": "29-S",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\29-S.npz"
+        },
+        {
+            "case_name": "3-2",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\3-2.npz"
+        },
+        {
+            "case_name": "30-T",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\30-T.npz"
+        },
+        {
+            "case_name": "31-U",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\31-U.npz"
+        },
+        {
+            "case_name": "32-V",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\32-V.npz"
+        },
+        {
+            "case_name": "33-W",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\33-W.npz"
+        },
+        {
+            "case_name": "34-X",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\34-X.npz"
+        },
+        {
+            "case_name": "35-Y",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\35-Y.npz"
+        },
+        {
+            "case_name": "36-Z",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\36-Z.npz"
+        },
+        {
+            "case_name": "37-a",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\37-a.npz"
+        },
+        {
+            "case_name": "38-b",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\38-b.npz"
+        },
+        {
+            "case_name": "39-c",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\39-c.npz"
+        },
+        {
+            "case_name": "4-3",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\4-3.npz"
+        },
+        {
+            "case_name": "40-d",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\40-d.npz"
+        },
+        {
+            "case_name": "41-e",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\41-e.npz"
+        },
+        {
+            "case_name": "42-f",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\42-f.npz"
+        },
+        {
+            "case_name": "43-g",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\43-g.npz"
+        },
+        {
+            "case_name": "44-h",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\44-h.npz"
+        },
+        {
+            "case_name": "45-i",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\45-i.npz"
+        },
+        {
+            "case_name": "46-j",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\46-j.npz"
+        },
+        {
+            "case_name": "47-k",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\47-k.npz"
+        },
+        {
+            "case_name": "48-l",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\48-l.npz"
+        },
+        {
+            "case_name": "49-m",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\49-m.npz"
+        },
+        {
+            "case_name": "5-4",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\5-4.npz"
+        },
+        {
+            "case_name": "50-n",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\50-n.npz"
+        },
+        {
+            "case_name": "51-o",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\51-o.npz"
+        },
+        {
+            "case_name": "52-p",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\52-p.npz"
+        },
+        {
+            "case_name": "53-q",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\53-q.npz"
+        },
+        {
+            "case_name": "54-r",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\54-r.npz"
+        },
+        {
+            "case_name": "55-s",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\55-s.npz"
+        },
+        {
+            "case_name": "56-t",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\56-t.npz"
+        },
+        {
+            "case_name": "57-u",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\57-u.npz"
+        },
+        {
+            "case_name": "58-v",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\58-v.npz"
+        },
+        {
+            "case_name": "59-w",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\59-w.npz"
+        },
+        {
+            "case_name": "6-5",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\6-5.npz"
+        },
+        {
+            "case_name": "60-x",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\60-x.npz"
+        },
+        {
+            "case_name": "61-y",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\61-y.npz"
+        },
+        {
+            "case_name": "62-z",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\62-z.npz"
+        },
+        {
+            "case_name": "63-0",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\63-0.npz"
+        },
+        {
+            "case_name": "64-1",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\64-1.npz"
+        },
+        {
+            "case_name": "65-2",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\65-2.npz"
+        },
+        {
+            "case_name": "66-3",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\66-3.npz"
+        },
+        {
+            "case_name": "67-4",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\67-4.npz"
+        },
+        {
+            "case_name": "68-5",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\68-5.npz"
+        },
+        {
+            "case_name": "69-6",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\69-6.npz"
+        },
+        {
+            "case_name": "7-6",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\7-6.npz"
+        },
+        {
+            "case_name": "70-7",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\70-7.npz"
+        },
+        {
+            "case_name": "71-8",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\71-8.npz"
+        },
+        {
+            "case_name": "72-9",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\72-9.npz"
+        },
+        {
+            "case_name": "73-A",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\73-A.npz"
+        },
+        {
+            "case_name": "74-B",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\74-B.npz"
+        },
+        {
+            "case_name": "75-C",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\75-C.npz"
+        },
+        {
+            "case_name": "76-D",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\76-D.npz"
+        },
+        {
+            "case_name": "77-E",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\77-E.npz"
+        },
+        {
+            "case_name": "78-F",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\78-F.npz"
+        },
+        {
+            "case_name": "79-G",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\79-G.npz"
+        },
+        {
+            "case_name": "8-7",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\8-7.npz"
+        },
+        {
+            "case_name": "80-H",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\80-H.npz"
+        },
+        {
+            "case_name": "81-I",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\81-I.npz"
+        },
+        {
+            "case_name": "82-J",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\82-J.npz"
+        },
+        {
+            "case_name": "83-K",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\83-K.npz"
+        },
+        {
+            "case_name": "84-L",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\84-L.npz"
+        },
+        {
+            "case_name": "85-M",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\85-M.npz"
+        },
+        {
+            "case_name": "86-N",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\86-N.npz"
+        },
+        {
+            "case_name": "87-O",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\87-O.npz"
+        },
+        {
+            "case_name": "88-P",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\88-P.npz"
+        },
+        {
+            "case_name": "89-Q",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\89-Q.npz"
+        },
+        {
+            "case_name": "9-8",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\9-8.npz"
+        },
+        {
+            "case_name": "90-R",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\90-R.npz"
+        },
+        {
+            "case_name": "91-S",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\91-S.npz"
+        },
+        {
+            "case_name": "92-T",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\92-T.npz"
+        },
+        {
+            "case_name": "93-U",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\93-U.npz"
+        },
+        {
+            "case_name": "94-V",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\94-V.npz"
+        },
+        {
+            "case_name": "95-W",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\95-W.npz"
+        },
+        {
+            "case_name": "96-X",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\96-X.npz"
+        },
+        {
+            "case_name": "97-Y",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\97-Y.npz"
+        },
+        {
+            "case_name": "98-Z",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\98-Z.npz"
+        },
+        {
+            "case_name": "99-a",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\99-a.npz"
+        },
+        {
+            "case_name": "999-LH",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\999-LH.npz"
+        },
+        {
+            "case_name": "999-SJTU",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\999-SJTU.npz"
+        },
+        {
+            "case_name": "999-SY",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\999-SY.npz"
+        },
+        {
+            "case_name": "999-YALE",
+            "U_image_path": "E:\\AIPoweredOptics_Fourier2SLM\\data\\FA2S_EMNIST_byclass_zero_PR\\test\\999-YALE.npz"
+        }
+    ]
+}
