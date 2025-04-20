@@ -101,7 +101,7 @@ cd FourierPhaseRetrieval
    
 
 ## Data Availability
-Preprocessed data are provided in the [`src/data`](src/data), including EMNIST datset and Fashion-MNIST dataset used in our paper.
+Preprocessed data checkpointer are provided in the [`Zonodo`](https://zenodo.org/records/15251921), including EMNIST datset and the trained model used in our paper.
 
 ## Citation
 If you find this work useful, please cite our paper:
