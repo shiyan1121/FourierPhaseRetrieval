@@ -7,7 +7,6 @@ from detectron2.projects.segmentation.data import (BaseDataset,
                                                    build_train_loader,
                                                    build_test_loader)
 from detectron2.projects.segmentation.data import parse_json_annotation_file
-from detectron2.projects.segmentation.transforms import RandomCrop, CenterCrop
 
 from ..common.optim import AdamW as optimizer
 from ..common.optim import grad_clippers
@@ -17,9 +16,8 @@ from ..data.data_mapper_FourierAmp2SLMFFTField import FieldGenerationDataMapper
 from ..evaluation.evaluator import FieldGnrtEvaluator
 from ..evaluation.split_combine import SplitCombiner
 from ..modeling.field_gnrt import FieldGenerator
-from ..modeling.head_unet import FieldGnrtUNetHead
+from ..modeling.head_unet_ifft import FieldGnrtUNetHead
 from ..modeling.backbone.BasicUNet import BasicUNetBackbone
-from ..common.losses import (LossList, MSEloss, MS_SSIMloss, WrappedMSEloss, Circularloss, L1loss, FMSEloss)
 
 # ================================================================
 # output_dir
@@ -36,11 +34,9 @@ os.makedirs(output_dir, exist_ok=True)
 # 设置 global variable
 # ================================================================
 INIT_CHECKPOINT = ''
-model = 'baseline_basicunet_FA2S_FourierAmp2SLMFFTField_250225_zero'
-INIT_CHECKPOINT = os.path.join(OUTPUT_DIR, model, 'model_final.pth')
 
-ANNO_FILE_TRAIN = 'E:\AIPoweredOptics_Fourier2SLM\data\jsons\Fourier2SLM_EMNIST_zero_PR_train.json'
-ANNO_FILE_VALID = 'E:\AIPoweredOptics_Fourier2SLM\data\jsons\Fourier2SLM_EMNIST_zero_rand_PR_valid.json'
+ANNO_FILE_TRAIN = 'E:\AIPoweredOptics_Fourier2SLM\data\jsons\Fourier2SLM_EMNIST_fashion_zero_PR_train.json'
+ANNO_FILE_VALID = 'E:\AIPoweredOptics_Fourier2SLM\data\jsons\Fourier2SLM_EMNIST_fashion_zero_PR_valid.json'
 META, DATA_LIST = parse_json_annotation_file(ANNO_FILE_TRAIN)
 TRANSFORM_FIELD = {'image': 'image', 'label': 'segmentation'}
 
@@ -51,22 +47,19 @@ NUM_WORKERS=2
 GPU_NUM = 1
 DATA_NUM = len(DATA_LIST)
 
-TRAIN_EPOCHS = 50
+TRAIN_EPOCHS = 100
 TRAIN_REPEAT = 1
 EPOCH_ITERS = (DATA_NUM * TRAIN_REPEAT) // (GPU_NUM * BATCH_SIZE_PER_GPU)
 MAX_ITERS = TRAIN_EPOCHS * EPOCH_ITERS
 AMP_ENABLED = True
-EVAL_EPOCH = 20
+EVAL_EPOCH = TRAIN_EPOCHS // 5
 SAVE_EPOCH = TRAIN_EPOCHS // 5
 LOG_ITER = 5
 GRAD_CLIPPER = grad_clippers.grad_value_clipper
 
 # dataloader parameters
-# RandomCrop
 CROP_SIZE = [400, 400]
 RESIZE_SIZE = None
-CENTER = [200, 200]
-
 
 # split combine
 SPLIT_COMBINE_ENABLE = False
@@ -86,12 +79,11 @@ WARMUP_ITER = 0.05*EPOCH_ITERS
 INPUT_CHANNEL = 1
 OUTPUT_CHANNEL = 2
 FEATS = [64, 128, 256, 512]
-PRETRAINED = False
 NORM_PRAMS = [[0]*INPUT_CHANNEL, [1]*INPUT_CHANNEL]
-LOSS_FUNCTION = L(LossList)(
-    losses=[MSEloss()],
-    weights=[1]
-)
+LOSSES_RATIO = {
+    'OutputAmp_MSEloss': 0.8,
+    'OutputPhase_WrapMSEloss': 0.2,
+}
 
 # ================================================================
 # 设置 dataloader
@@ -102,10 +94,6 @@ dataloader.train = L(build_train_loader)(
     dataset=L(BaseDataset)(anno_file=ANNO_FILE_TRAIN),
     mapper=L(FieldGenerationDataMapper)(
         transforms=[
-            # L(RandomCrop)(
-            #     crop_size = CROP_SIZE,
-            #     fields = TRANSFORM_FIELD
-            # )
         ]
     ),
     batch_size=BATCH_SIZE_PER_GPU,
@@ -116,9 +104,6 @@ dataloader.test = L(build_test_loader)(
     dataset=L(BaseDataset)(anno_file=ANNO_FILE_VALID),
     mapper=L(FieldGenerationDataMapper)(
         transforms=[
-        #     L(CenterCrop)(
-        #         crop_size = CROP_SIZE,
-        #         fields = {'image': 'image'})
         ]
     ),
     batch_size=BATCH_SIZE_PER_GPU_VALID,
@@ -140,10 +125,10 @@ model = L(FieldGenerator)(
             features = FEATS
         ),
         head = L(FieldGnrtUNetHead)(
-            loss_function = LOSS_FUNCTION,
             in_channel = FEATS[0],
             out_channel = OUTPUT_CHANNEL,
-            is_drop = False
+            is_drop = False,
+            losses_ratio = LOSSES_RATIO
         ),
         pixel_mean = NORM_PRAMS[0],
         pixel_std = NORM_PRAMS[1],
