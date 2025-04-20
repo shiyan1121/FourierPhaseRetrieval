@@ -14,8 +14,6 @@
 ## Overview
 This repository implements an interpretable Fourier-domain deep learning framework for phase retrieval. The method reconstructs complex-valued wavefronts from intensity-only measurements while preserving physical Object-Fourier domain relationships.
 
-![Example Image](src/M1-SetupAndDataAcquisition.jpg)
-
 ### Key Contributions
 1. **Fourier-Domain Learning** – First deep learning framework that directly operates in the frequency domain while preserving physical Object-Fourier relationships.
 2. **State-of-the-Art Performance** – Achieves 8 dB higher wPSNR and 0.982 PC on benchmarks.
@@ -23,6 +21,9 @@ This repository implements an interpretable Fourier-domain deep learning framewo
 4. **Interpretable Reconstructions** – Provides traceable phase recovery aligned with optical principles.
 
 For detailed information, please refer to our paper: [xxx].
+
+![Experimental setup and training framework](src/M1-SetupAndDataAcquisition.jpg)
+![In-domain results](src/R1-Results_InDomain.jpg)
 
 ## Repository Structure
 In this repository, we have customized the required model, dataloaders, scheduler, optimizer, loss, and evaluation according to Detectron2's training requirements.
