@@ -30,7 +30,7 @@ class FieldGnrtUNetHead(nn.Module, ABC):
         in_channel: int = 64,
         out_channel: int = 1,
         is_drop: bool = False,
-        losses_ratio: dict = {'OutputAmpMSEloss': 1, 'OutputPhaseWrapMSEloss': 1, 'InputPhaseWrapMSEloss': 1}
+        losses_ratio: dict = {'OutputAmpMSEloss': 1, 'OutputPhaseWrapMSEloss': 1}
     ):
         super().__init__()
 
@@ -76,17 +76,12 @@ class FieldGnrtUNetHead(nn.Module, ABC):
         """
         define your losses
         """
-        logits_ifft = self.input_ifft(logits[:, 0:1, :, :], 2*torch.pi*logits[:, 1:2, :, :])
-        logits_center = logits_ifft[:, :, self.center_range_start: self.center_range_end,
-                              self.center_range_start: self.center_range_end]
-        logits_center_phase = _phase_norm(torch.angle(logits_center))
-
 
         losses = {}
         losses['total_loss'] = 0
         for (k, pred, target) in zip(self.losses_ratio.keys(),
-                        [logits[:, 0:1, :, :], logits[:, 1:2, :, :], logits_center_phase],
-                        [targets[:, 0:1, :, :], targets[:, 1:2, :, :], conditions]):
+                        [logits[:, 0:1, :, :], logits[:, 1:2, :, :]],
+                        [targets[:, 0:1, :, :], targets[:, 1:2, :, :]]):
 
             losses[k] = self.compute_loss(pred, target, loss_type=k.split('_')[-1][:-4])
             losses['total_loss'] += losses[k] * self.losses_ratio[k]
